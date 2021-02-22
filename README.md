@@ -19,16 +19,24 @@ The project notifies the farmer's phone when the moisture level crosses the thre
 Therefore the farmer can know the status of his fields even if he is away.
 
 
+
 SYSTEM IMPLEMENTATION:
 
 Once the hardware circuit is constructed in Tinkercad, it has to be integrated to the thingspeak cloud and IFTTT for the farmer to receive messages. The steps to do so is given below:
 
 Step 1. Create a channel on Thinkspeak cloud. 
+
 Step 2. Copy the API key and paste it in the Tinkercad code. 
+
 Step 3. Create an Applet on web based service IFTTT from webhooks to SMS. 
+
 Step 4. On Thinkspeak cloud create a Thing HTTP and paste applet url in that. 
-Step 5. On Cloud then create a React and set the condition for triggering the event. 
+
+Step 5. On Cloud then create a React and set the condition for triggering the event.
+
 Step 6. Download the IFTTT in your android device.
+
+
 
 ● IFTTT Applets are connected from webhooks to android messages to alert the farmer regarding the status of the motor via cellphone SMS. 
 
@@ -39,6 +47,8 @@ Step 6. Download the IFTTT in your android device.
 ● Thingspeak cloud channel which will continuously update the value while running the simulation in Tinkercad.(Soil moisture level , Motor speed Temperature, CO2 level and ldr value) 
 
 ● Continuous Messages on Android Phone regarding the status of the motor, soil moisture level and the speed of the motor to alert the farmer.
+
+
 
 The irrigation system was simulated in the online platform of tinkercad. The major hardware components required for the system.
 
